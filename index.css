@@ -1,3 +1,74 @@
+body {
+  margin: 0;
+}
 .header {
+  background-color: #3C5B99;
+  height: 83px;
+  display: flex;
+}
+
+#logo {
+    padding-left: 11%;
+    padding-top: 1.6%;
+    padding-bottom: 0.3%
+}
+
+.loginform{
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  padding-left: 33%;
+  padding-top: 4px;
+  padding-bottom: 0;
+}
+
+.password {
+  padding: 0 16px 0 18px;
+}
+
+.longinp {
+  margin-bottom: -9px;
+}
+
+.logininput {
+  border: 1px solid black;
+  width: 142px;
+  height: 19px;
+  background-color: #FFFFFF
+}
+
+input:focus {
+  outline: none;
+}
+
+#forgot > a {
+  color: #99B3D8;
+  text-decoration: none;
+}
+
+#forgot:hover {
+  text-decoration: underline;
+}
+
+#forgot {
+  margin-top: -8px;
+}
+
+#loginbutton {
+  cursor: pointer;
+  border-radius: 2px;
+  height: 24px;
+  border: 1px solid #29487d;
+  /* border-color: #29487d; */
+  margin: auto;
+  margin-top: 30px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #4267b2;
+  color: #FFFFFF;
+}
+
+#loginbutton:hover {
   background-color: #3A5998;
 }

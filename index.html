@@ -3,12 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Facebook Login</title>
+    <link rel="shortcut icon" href="./title.png" />
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <div class="header">
-      <img src="./logo.png" alt="">
 
-    </div>
+    <div class="header">
+      <img id="logo" src="./logo.png" alt="">
+
+      <div class="loginform">
+
+        <div class="email">
+          <p class="longinp">Email or Phone</p><br>
+          <input class="logininput" type="text"><br>
+        </div>
+
+        <div class="password">
+          <p class="longinp">Password</p><br>
+          <input class="logininput"  type="password"><br><br>
+          <p id="forgot" ><a href="#">Forgot account?</a></p>
+        </div>
+
+        <button id="loginbutton" type="button">Log In</button>
+      </div> <!-- loginform -->
+    </div>  <!-- header -->
+
   </body>
 </html>
